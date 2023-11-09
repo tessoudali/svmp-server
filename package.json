@@ -36,7 +36,7 @@
     "svmp-overseer-client": "git+https://github.com/SVMP/svmp-overseer-client.git#svmp-2.0.0",
     "to-date": "latest",
     "winston": "~0.7.3",
-    "ws": "^0.4.32"
+    "ws": "^0.8.1"
   },
   "optionalDependencies": {},
   "devDependencies": {
