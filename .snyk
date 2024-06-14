@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - svmp-overseer-client > superagent > mime:
+        patched: '2024-06-14T22:00:24.416Z'
+        id: 'npm:mime:20170907'
+        path: svmp-overseer-client > superagent > mime
+    - svmp-overseer-client > superagent > form-data > mime:
+        patched: '2024-06-14T22:00:24.416Z'
+        id: 'npm:mime:20170907'
+        path: svmp-overseer-client > superagent > form-data > mime
+  'npm:minimatch:20160620':
+    - svmp-overseer-client > grunt-cli > findup-sync > glob > minimatch:
+        patched: '2024-06-14T22:00:24.416Z'
+        id: 'npm:minimatch:20160620'
+        path: svmp-overseer-client > grunt-cli > findup-sync > glob > minimatch
+  'npm:qs:20140806-1':
+    - svmp-overseer-client > superagent > qs:
+        patched: '2024-06-14T22:00:24.416Z'
+        id: 'npm:qs:20140806-1'
+        path: svmp-overseer-client > superagent > qs
