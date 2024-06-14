@@ -23,7 +23,9 @@
     "svmp-server": "./bin/server.js"
   },
   "scripts": {
-    "test": "grunt"
+    "test": "grunt",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "bytebuffer": "~2.3.1",
@@ -36,7 +38,8 @@
     "svmp-overseer-client": "git+https://github.com/SVMP/svmp-overseer-client.git#svmp-2.0.0",
     "to-date": "latest",
     "winston": "~0.7.3",
-    "ws": "^0.4.32"
+    "ws": "^0.4.32",
+    "@snyk/protect": "latest"
   },
   "optionalDependencies": {},
   "devDependencies": {
@@ -45,5 +48,6 @@
     "grunt-exec": "latest",
     "mocha": "latest",
     "grunt-jsdoc": "~0.5.4"
-  }
+  },
+  "snyk": true
 }
