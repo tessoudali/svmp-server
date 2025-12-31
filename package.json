@@ -35,7 +35,7 @@
     "revalidator": "^0.2.0",
     "svmp-overseer-client": "git+https://github.com/SVMP/svmp-overseer-client.git#svmp-2.0.0",
     "to-date": "latest",
-    "winston": "~0.7.3",
+    "winston": "~0.8.0",
     "ws": "^0.4.32"
   },
   "optionalDependencies": {},
